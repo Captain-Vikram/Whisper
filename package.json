@@ -1,0 +1,26 @@
+{
+  "name": "audio-transcription-extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension for audio transcription using Web Speech API and Whisper.js.",
+  "main": "src/background.js",
+  "scripts": {
+    "build": "echo 'Building the extension...'",
+    "test": "echo 'Running tests...'",
+    "lint": "echo 'Linting the code...'"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "transcription",
+    "audio",
+    "whisper"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "whisper.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

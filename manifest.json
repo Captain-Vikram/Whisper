@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Audio Transcription Extension",
+    "version": "1.0",
+    "description": "A Chrome extension for real-time audio transcription using Web Speech API and Whisper.js.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "VLogo.png",
+            "48": "VLogo.png",
+            "128": "VLogo.png"
+        }
+    },
+    "icons": {
+        "16": "VLogo.png",
+        "48": "VLogo.png",
+        "128": "VLogo.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["lib/whisper-worker.js"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "default_locale": "_locales/en"
+}
