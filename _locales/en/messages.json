@@ -1,0 +1,62 @@
+{
+    "extensionName": {
+        "message": "Real-time Audio Transcription",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Transcribes audio from active tabs in real-time using open source solutions",
+        "description": "Description of the extension"
+    },
+    "startTranscription": {
+        "message": "Start Transcription",
+        "description": "Button text to start transcription"
+    },
+    "stopTranscription": {
+        "message": "Stop Transcription",
+        "description": "Button text to stop transcription"
+    },
+    "methodSelect": {
+        "message": "Select Transcription Method",
+        "description": "Label for method selection dropdown"
+    },
+    "webSpeechOption": {
+        "message": "Web Speech API (Default)",
+        "description": "Option for Web Speech API method"
+    },
+    "whisperOption": {
+        "message": "Whisper.js (Better accuracy)",
+        "description": "Option for Whisper.js method"
+    },
+    "processingStatus": {
+        "message": "Processing audio...",
+        "description": "Status message during processing"
+    },
+    "errorGeneric": {
+        "message": "An error occurred during transcription",
+        "description": "Generic error message"
+    },
+    "errorNoAudio": {
+        "message": "No audio detected",
+        "description": "Error message when no audio is detected"
+    },
+    "errorPermission": {
+        "message": "Permission to access audio was denied",
+        "description": "Error message for permission denial"
+    },
+    "settingsTitle": {
+        "message": "Transcription Settings",
+        "description": "Title for settings section"
+    },
+    "languageSelect": {
+        "message": "Select Language",
+        "description": "Label for language selection dropdown"
+    },
+    "saveTranscript": {
+        "message": "Save Transcript",
+        "description": "Button text to save transcript"
+    },
+    "clearTranscript": {
+        "message": "Clear Transcript",
+        "description": "Button text to clear transcript"
+    }
+}

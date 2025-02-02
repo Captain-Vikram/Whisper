@@ -35,7 +35,7 @@ audio-transcription-extension/
 3. **Load the extension in Chrome:**
    - Open Chrome and navigate to `chrome://extensions/`.
    - Enable "Developer mode" in the top right corner.
-   - Click on "Load unpacked" and select the `audio-transcription-extension` directory.
+   - Click on "Load unpacked" and select the `audio-transcription-extension/src` directory.
 
 ## Usage Guidelines
 
